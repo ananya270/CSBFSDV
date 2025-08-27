@@ -16,3 +16,10 @@ h2{
 #exp{
     color: red;
 }
+.test{
+    color: orange;
+}
+.footer{
+    color: rgb(10, 39, 223);
+    text-align: left;
+}
