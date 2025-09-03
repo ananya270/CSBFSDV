@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Top stacked header (4:1) + left nav</title>
+</head>
+<body style="margin:0; height:100vh; display:flex; flex-direction:column;">
+
+  <!-- TOP: a container that stacks two horizontal bars (ratio 4:1) -->
+  <div style="height:20vh; display:flex; flex-direction:column;">
+    <!-- top part of header (4 parts) -->
+    <!-- <div style="flex:4; display:flex; align-items:center; padding:16px 20px; box-sizing:border-box; background:#f3f4f6; border-bottom:1px solid #e6e6e6;">
+      <h1 style="margin:0; font-size:1.4rem;">My Website Heading</h1>
+    </div> -->
+
+    <!-- bottom (smaller) part of header (1 part) -->
+    <div style="flex:1; display:flex; align-items:center; padding:0 20px; box-sizing:border-box; background:#e9eef5;">
+      <p style="margin:0;">Small header row (4:1 ratio with the top header)</p>
+    </div>
+  </div>
+
+  <!-- BOTTOM: left navigation + right main content -->
+  <div style="flex:1; display:flex; min-height:0;"> 
+    <!-- left nav column -->
+    <div style="width:22%; min-width:160px; padding:16px; box-sizing:border-box; background:#f0f0f0; border-right:1px solid #e6e6e6; overflow:auto;">
+      <h3 style="margin:0 0 12px 0;">Navigation</h3>
+      <p style="margin:6px 0;"><a href="#">Dashboard</a></p>
+      <p style="margin:6px 0;"><a href="#">Projects</a></p>
+      <p style="margin:6px 0;"><a href="#">Reports</a></p>
+      <p style="margin:6px 0;"><a href="#">Settings</a></p>
+    </div>
+
+    <!-- right main column -->
+    <div style="flex:1; padding:20px; overflow:auto;">
+      <h2 style="margin-top:0;">Welcome</h2>
+      <p>This is the main content area. The top region is stacked horizontally into two bars (4:1 ratio). Below that is a vertical split with navigation on the left and content on the right.</p>
+      <p>Add whatever you want here — text, images, forms, etc.</p>
+    </div>
+  </div>
+
+</body>
+</html>

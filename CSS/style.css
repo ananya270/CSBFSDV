@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+p{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: navy;
+    margin-left: 20px;
+}
+h2{
+    color: green;
+    margin-left: 20px;
+}
+#exp{
+    color: red;
+}
+.test{
+    color: orange;
+}
+.footer{
+    color: rgb(10, 39, 223);
+    text-align: left;
+}
