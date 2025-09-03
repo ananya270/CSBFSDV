@@ -1,0 +1,25 @@
+div+p{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+p::after{
+    content: " ABES engineering college";
+    color: red;
+}
+p::before{
+    content: "Welcome to ";
+    color: blue;
+}
+p::selection{
+    background-color: yellow;
+    color: black;
+}
+p:nth-child(2){
+    background-color: green;
+    color: white;
+}
+div p:nth-of-type(1){
+    background-color: purple;
+    color: white;
+}
