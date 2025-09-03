@@ -7,7 +7,7 @@
     background-color: lightgrey;
 }
 .BOX1 {
-    border: 2px dashed blue;
+    border: 2px solid blue;
     padding: 10px;
     margin: 10px;
     width: 200px;
@@ -15,7 +15,7 @@
     background-color: lightblue;
 }
 .BOX2 {
-    border: 2px dotted green;
+    border: 2px solid green;
     padding: 5px;
     margin: 5px;
     width: 100px;
