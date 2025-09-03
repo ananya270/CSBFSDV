@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    height: 250px;
+    background-color: lightgrey;
+}
+.BOX1 {
+    border: 2px dashed blue;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+.BOX2 {
+    border: 2px dotted green;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+}
+.BOX3 {
+    border: 2px solid red;
+    padding: 2px;
+    margin: 2px;
+    width: 50px;
+    height: 25px;
+    background-color: lightcoral;
+}
