@@ -1,15 +1,17 @@
+import {usecase } from 'react'
 import './App.css'
-import Profile from './component/Profile.jsx'
-import Gallery from './component/Gallery.jsx'
-import StateHandling from './component/StateHandling.jsx'
+import Login from './pages/login.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="container">
-      <h2>Welcome to react vite</h2>
-      {/* <Profile />
-      <Gallery /> */}
-      <StateHandling/>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login/>} />
+          <Route path="/login" element={<Login/>} />
+        </Routes> 
+      </BrowserRouter>
     </div>
   )
 }
