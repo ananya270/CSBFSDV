@@ -1,5 +1,5 @@
 import "./App.css";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 // e.g. in src/main.jsx or src/App.jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from "./pages/Dashboard";
